@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Pay</title>
+<style>
+    .box-pay{
+        background-color: cadetblue;
+        padding: 5% 10%;
+        text-align: center;
+        margin: 3% 20%;
+    }
+    .box-pay img{
+        border: 2px solid white ;
+        border-radius: 10px;
+    }
+    .box-pay h1{
+        color: white;
+    }
+    .box-pay h2{
+        color: chartreuse;
+    }
+    .box-pay button{
+        background-color: brown;
+        color: white;
+        padding: 10px 25px;
+        font-weight: 800;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="box-pay">
+        <img src="images/th.jpeg" alt="">
+        <h1>Price: <span id="product-price">100.00</span> Taka</h1>
+        <h2>Discount: <span id="discount-persent">30</span>% OFF</h2>
+        <h3 id="please-pay"></h3>
+        <button id="btn-apply">Apply</button>
+    </div>
+
+    <!-- JavaScript file add  -->
+    <script src="js/function.js"></script>
+</body>
+</html>
+
